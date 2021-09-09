@@ -167,12 +167,12 @@ div.fadeIn {
         padding: 5px;
         font-size: 16px;
     }
-    .intro button,
+.intro button,
 .match button,
 .player-wins button,
 .computer-wins button {
-    width: 80px;
-    height: 20px;
+    width: 120px;
+    height: 40px;
     background: none;
     border: none;
     color: rgb(223, 221, 221);
@@ -182,6 +182,12 @@ div.fadeIn {
     border-radius: 3px;
     margin: 5px;
 }
+.match button {
+    width: 80px;
+    height: 20px;
+
+}
+
 img {
     height: 50%;
     width: 50%;
@@ -201,6 +207,10 @@ img {
 }
     .hands {
         height: 30vh;
+        width: 30vh;
+    }
+    .options {
+        flex-direction: column;
     }
 }
 
