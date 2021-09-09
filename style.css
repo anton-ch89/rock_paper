@@ -157,4 +157,50 @@ div.fadeIn {
     }
 }
 
+@media (max-width: 600px) {
+    .score h2 {
+        font-size: 15px;
+    }
+    
+    .score p {
+        text-align: center;
+        padding: 5px;
+        font-size: 16px;
+    }
+    .intro button,
+.match button,
+.player-wins button,
+.computer-wins button {
+    width: 80px;
+    height: 20px;
+    background: none;
+    border: none;
+    color: rgb(223, 221, 221);
+    background-color: rgb(45,117,96);
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 5px;
+}
+img {
+    height: 50%;
+    width: 50%;
+}
+.intro h1 {
+    font-size: 25px;
+}
+.score h2 {
+    font-size: 15px;
+}
+.winner,
+.player-wins,
+.computer-wins {
+    color: rgb(223, 221, 221);
+    text-align: center;
+    font-size: 25px;
+}
+
+    
+}
+
 
